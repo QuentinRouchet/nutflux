@@ -10,4 +10,4 @@ Here is our Netflix clone. The goal of this project is to make a Netflix clone i
 * TypeScript
 
 ### Back-end
-*Firestore
+* Firestore
