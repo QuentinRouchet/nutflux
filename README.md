@@ -6,7 +6,7 @@ Here is our Netflix clone. The goal of this project is to make a Netflix clone i
 
 ### Front-end
 * Vite
-* React
+* React JS
 * TypeScript
 
 ### Back-end
