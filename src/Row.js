@@ -21,6 +21,8 @@ function Row ({ title, fetchUrl, isLargeRow = false }) {
 
     // Start slide button
 
+
+    
     const slideLeft = () => {
         var slider = document.getElementById("slider");
         slider.scrollLeft = slider.scrollLeft - 500;

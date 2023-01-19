@@ -33,14 +33,16 @@
     padding: 20px;
     scroll-behavior: smooth;
 }
-
 .row__posters {
     scrollbar-width: none;
 }
+.row__posters:nth-child(1) .row__poster{
+    max-height: 400px;
+}
 
 .row__poster {
-    max-height: 200px;
-    border-radius: 10px;
+    max-height: 180px;
+    border-radius: 5px;
     object-fit: contain;
     margin-right: 10px;
     transition: all 0.2s ease-in-out;
@@ -48,12 +50,25 @@
     transition: transform 450ms; */
 }
 .row__poster:hover {
-    transform: scale(120%);
+    transform: scale(105%);
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.row__posters:nth-child(1) .row__poster{
-    max-height: 400px;
+.row__posterLarge {
+    max-height: 350px;
 }
 
+@media (max-width: 1200px) {
+    .row__poster {
+        max-height: 150px;
+    }
+}
+@media (max-width: 600px) {
+    .row__poster {
+        max-height: 130px;
+    }
+    .categoryTitle {
+        font-size: 1.5rem;
+    }
+}
