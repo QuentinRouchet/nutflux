@@ -4,7 +4,7 @@ const ProfileSelection = () => {
     return (
         <div>
             <div>
-                <img/>
+                <img src="../img/ghost_netflux.png" />
                 <p>Random 1</p>
             </div>
             <div>
