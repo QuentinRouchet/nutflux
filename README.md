@@ -5,8 +5,9 @@ Here is our Netflix clone. The goal of this project is to make a Netflix clone i
 ## Technologies
 
 ### Front-end
-* Redux
+* Tailwind
 * React JS
+* Redux
 
 ### Back-end
 * Firestore
